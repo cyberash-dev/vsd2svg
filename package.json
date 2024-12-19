@@ -1,10 +1,14 @@
 {
   "name": "vsd2svg",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "vsd2svg converter",
   "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberash-dev/vsd2svg.git"
+  },
   "bin": {
-    "vsd2svg": "bin/cli.js"
+    "vsd2svg": "bin/cli"
   },
   "scripts": {
     "build:cli:native": "./scripts/build-native-cli.sh",
