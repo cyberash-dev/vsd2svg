@@ -1,9 +1,11 @@
 {
   "name": "vsd2svg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./src/index.js",
-  "bin": "./bin/cli.js",
+  "bin": {
+    "vsd2svg": "bin/cli.js"
+  },
   "scripts": {
     "build:cli:native": "./scripts/build-native-cli.sh",
     "build:dependencies:native": "./scripts/build-dependencies.sh -n",
